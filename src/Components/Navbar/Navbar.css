@@ -29,6 +29,8 @@
 
 .nav-menu li{
     display: flex;
+    color:#221e1e;
+    filter: drop-shadow(3px 1px 2px rgb(102, 100, 100));
     flex-direction: column;
     /* font-family:cursive; */
     align-items: center;
@@ -87,6 +89,19 @@
 }
 .nav-dropdown{
     display: none;
+}
+
+.usa{
+    background-image: url("../Assets/usa3.png");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+}
+.col{
+    background-image: url("../Assets/col2.png");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
 }
 
 /* -------- media query---------- */

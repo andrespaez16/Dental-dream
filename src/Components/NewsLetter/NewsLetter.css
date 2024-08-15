@@ -97,3 +97,11 @@
         font-size: 12px;
     }
 }
+
+
+.text-white-new{
+    background-image: url("../Assets/formImage.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+  }
