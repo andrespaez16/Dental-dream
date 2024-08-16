@@ -6,10 +6,11 @@
     background-position: bottom;
     background-size: cover;
     height: 87vh;
+    width: 100%;
 }
 .hero-left{
     line-height: 1.1;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .hero-left h2{
     color:rgb(216, 160, 166) !important ;
@@ -21,7 +22,7 @@
     font-size: 60px;   
     font-weight: bold;
     filter: drop-shadow(5px 1px 2px rgb(102, 100, 100));
-
+    font-family: 'Montserrat', sans-serif;
     padding-left: 200px;
 }
 .hero-hand-icon{
@@ -48,8 +49,7 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-    margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .hero-latest-btn img{
     width: 18px;
@@ -62,6 +62,9 @@
 .kenburns-bottom {
 	-webkit-animation: kenburns-bottom 5s ease-out both;
 	        animation: kenburns-bottom 5s ease-out both;
+}
+.shadow-core{
+    filter: drop-shadow(4px 6px 12px black);
 }
 
 /* ----------------------------------------------
@@ -135,13 +138,16 @@
     padding: 0 10%;
    }
     .hero-left p{
-        font-size: 55px;
+        padding-top: 10px;
+        font-size: 25px;
+        padding-left: 0 !important;
     }
     .hero-right{
         display: none;
     }
     .hero-left{
         line-height: 1.2;
+
     }
     .hero-left h2{
         margin-bottom: 20px;
@@ -149,5 +155,12 @@
   
     .hero-latest-btn{
         margin-top: 30px;
+    }
+    
+    section{
+        width: auto !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        form{}
     }
 }

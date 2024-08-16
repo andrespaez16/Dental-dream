@@ -2,11 +2,18 @@ import React from 'react'
 import Hero from '../Components/Hero/Hero'
 import NewsLetter from '../Components/NewsLetter/NewsLetter'
 import "../Pages/Home.css";
+import Service from '../Components/Service/Service';
 
 const Home = () => {
   return (
     <div>
       <Hero/>
+      <Service direction = {false}></Service>
+      <Service  direction = {true}></Service>
+      <Service direction = {false}></Service>
+      <Service  direction = {true}></Service>
+      <Service direction = {false}></Service>
+      <Service  direction = {true}></Service>
       <NewsLetter/>
       <button className="w-[70px] h-[70px] border-radius: [50px] what">
         <a
