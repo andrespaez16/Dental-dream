@@ -1,29 +1,24 @@
 import React from "react";
 import "./Service.css";
-
+import "../Assets/reabiltacion.jpg";
 const Service = (props) => {
-    console.log(props.direction, 'estaisoos')
+  console.log(props.info, "estaisoos");
   return (
     <div className="service flex flex-wrap flex-row">
-      {props.direction ? (
+      {props.info.direction ? (
         <>
           <div className="service-text">
-            <h2>test</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nisi inventore molestias culpa? Libero vitae rem pariatur et cum quaerat officia laboriosam, perferendis natus, animi aperiam amet voluptas, a voluptatem.</p>
-
+            <h2>{props.info.title}</h2>
+            <p>{props.info.text}</p>
           </div>
-          <div className="service-photo">
-
-          </div>
+          <div className={props.info.classPhoto}></div>
         </>
       ) : (
         <>
-          <div className="service-photo">
-
-          </div>
+          <div className={props.info.classPhoto}></div>
           <div className="service-text">
-          <h2>test</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nisi inventore molestias culpa? Libero vitae rem pariatur et cum quaerat officia laboriosam, perferendis natus, animi aperiam amet voluptas, a voluptatem.</p>
+            <h2>{props.info.title}</h2>
+            <p>{props.info.text}</p>
           </div>
         </>
       )}
