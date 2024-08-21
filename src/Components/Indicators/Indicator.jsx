@@ -6,7 +6,7 @@ const Indicator = (props) => {
   console.log(props.info, "estaisoos");
   return (
     <div
-    className="mx-auto grid md:grid-cols-3 mt-[50px]"
+    className="mx-auto grid md:grid-cols-3 mt-[30px]"
     data-aos="zoom-in"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1000"

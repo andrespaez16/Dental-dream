@@ -82,10 +82,10 @@ const Footer = () => {
         <div>
           <h6 className="font-medium text-gray-400">Hablemos</h6>
           <ul>
-            <li className="py-2 text-sm">Telefono:604 489 99 18</li>
-            <li className="py-2 text-sm">WhatsApp:312 279 48 31</li>
+            <li className="py-2 text-sm">Telefono: 604 489 99 18</li>
+            <li className="py-2 text-sm">WhatsApp: 312 279 48 31</li>
             <li className="py-2 text-sm">
-              Email:dentaldreamsr@gmail.com
+              Email: dentaldreamsr@gmail.com
             </li>
           </ul>
         </div>

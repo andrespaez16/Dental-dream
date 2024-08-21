@@ -1,11 +1,11 @@
 
 
 .hero{
-    background-image:url('../Assets/home.jpg');
+    background-image:url('../Assets/homev2.jpg');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
 }
 .hero-left{

@@ -1,45 +1,30 @@
-import React from 'react'
-import './NewsLetter.css'
+import React from "react";
+import "./NewsLetter.css";
 const NewsLetter = () => {
   return (
-    <div className="pt-32"  id="About">
-    <h1 className="md:text-4xl sm:text-3xl text-center text-2xl font-bold text-decoration-line: underline mb-20">
-    {/* {t("contact.title")} */}
-    </h1>
-    <div className="w-full pt-16 text-white text-white-new h-[500px]">
-      <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 mt-[60px]">
-        <div className="lg:col-span-2 my-4">
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-          {/* {t("contact.text_contact")} */}
-          </h1>
-          <p>
-            {/* {t("contact.text_subtitle")} */}
-            
-          </p>
-        </div>
-        <div className="my-4">
-          <div className="flex flex-col sm:flex-row items-center justify-between w-full">
-            <input
-              className="p-3 flex w-full rounded-md text-black"
-              type="email"
-              placeholder='emial'
-            />
-            <button className="bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3">
-              <a href="mailto:cuchitocorpgerencia@hotmail.com?subject=Hello i Want to Get a Quote!!!&body=Hello cuchitocorp I want a quote for the service:" className="">
-
-            {/* {t("contact.button")} */}
-              </a>
-            </button>
-          </div>
-          <p>
-          {/* {t("contact.input_text")} */}
-            <span className="text-[#00df9a]">text</span>
-          </p>
-        </div>
+    <div className="mision-and-vision">
+      <div className="mision">
+        <h2 className="mision-title">Misión:</h2>
+        <p className="mision-text">
+          Ser un consultorio odontológico en constante evolución, conformado por
+          los mejores especialistas en odontología, en constante formación,
+          logrando mejores resultados en cada tratamiento y así ofrecer una
+          atención personalizada a cada paciente. Nuestros valores son:
+          excelencia en el servicio, honestidad, eficacia y respeto.
+        </p>
+      </div>
+      <div className="vision">
+        <h2 className="vision-title">Visión:</h2>
+        <p className="vision-text">
+          Queremos ser reconocidos por nuestro profesionalismo y buen trato,
+          llegando así a ser líderes en la atención integral de nuestros
+          pacientes, la cual nos lleve a una proyección de crecimiento a nivel
+          nacional y así podamos ayudar a más personas a tener la sonrisa que
+          siempre han soñado.
+        </p>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default NewsLetter
+export default NewsLetter;
