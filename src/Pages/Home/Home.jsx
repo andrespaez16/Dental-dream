@@ -6,6 +6,7 @@ import Service from "../../Components/Service/Service";
 import Indicator from "../../Components/Indicators/Indicator";
 
 const Home = () => {
+
   return (
     <div>
       <Hero />
@@ -16,7 +17,7 @@ const Home = () => {
         <a
           className="hide-type"
           target="_blank"
-          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer los productos de la tienda !!!"
+          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
         >
           whatsapp
         </a>

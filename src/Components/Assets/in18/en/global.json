@@ -37,20 +37,20 @@
 
 
   "contact": {
-    "title_mision": "Misión:",
-    "text_mision": "Ser un consultorio odontológico en constante evolución, conformado por los mejores especialistas en odontología, en constante formación, logrando mejores resultados en cada tratamiento y así ofrecer una atención personalizada a cada paciente. Nuestros valores son: excelencia en el servicio, honestidad, eficacia y respeto.",
-    "text_vision": "Visión:",
-    "title_vision": "Queremos ser reconocidos por nuestro profesionalismo y buen trato, llegando así a ser líderes en la atención integral de nuestros pacientes, la cual nos lleve a una proyección de crecimiento a nivel nacional y así podamos ayudar a más personas a tener la sonrisa que siempre han soñado."
+    "title_mision": "Mission:",
+    "text_mision": "To be a dental office in constant evolution, conformed by the best specialists in dentistry, in constant training, achieving better results in each treatment and thus offering personalized attention to each patient. Our values are: excellence in service, honesty, efficiency and respect.",
+    "text_vision": "Vision:",
+    "title_vision": "We want to be recognized for our professionalism and good treatment, thus becoming leaders in the comprehensive care of our patients, which will lead us to a projection of growth at national level and thus we can help more people to have the smile they have always dreamed of."
   },
   "footer":{
-    "building":"Edificio fundadores",
-    "floor":"Piso 11 Consultorio 1107",
-    "days":"LUN-VIE 8:00 a.m. – 6:00 p.m.",
-    "holidays":"SABADO 8:00 a.m. – 1:00 p.m.",
-    "telefono":"Telefono: 604 489 99 18",
-    "email":"Email: dentaldreamsr@gmail.com",
-    "talk":"Hablemos",
-    "hours":"Horarios"
-   
+    "building": "Founders Building",
+    "floor": "floor11 Office 1107",
+    "days": "MON-FRI 8:00 a.m. - 6:00 p.m.",
+    "holidays": "SATURDAY 8:00 a.m. - 1:00 p.m.",
+    "telefono": "Telephone: 604 489 99 18",
+    "email": "Email: dentaldreamsr@gmail.com",
+    "talk": "Let's talk",
+    "hours": "Hours",
+    "spot":"Locate us at"
   }
 }

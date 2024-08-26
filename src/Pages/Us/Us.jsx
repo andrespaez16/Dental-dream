@@ -8,7 +8,15 @@ const Us = () => {
   return (
 <>
 <NewsLetter />
-
+<button className="w-[70px] h-[70px] border-radius: [50px] what">
+        <a
+          className="hide-type"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
+        >
+          whatsapp
+        </a>
+      </button>
 
 {/* <MapContainer center={position} zoom={13} >
     <TileLayer

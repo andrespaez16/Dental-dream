@@ -49,6 +49,7 @@ const DentalSpecialties = () => {
   ];
 
   return (
+<>
     <div className="especialidades-container">
       <div className="especialidades">
         <h2 className="especialidades-text">Especialidades</h2>
@@ -57,6 +58,16 @@ const DentalSpecialties = () => {
         return <Service info={card}></Service>;
       })}
     </div>
+    <button className="w-[70px] h-[70px] border-radius: [50px] what">
+        <a
+          className="hide-type"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
+        >
+          whatsapp
+        </a>
+      </button>
+</>
   );
 };
 

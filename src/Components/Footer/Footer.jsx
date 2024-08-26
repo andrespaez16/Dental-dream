@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
       <div className="lg:col-span-2 flex grid md:grid-cols-3 justify-around mt-2">
         <div className="">
-          <h6 className="font-high text-gray-400">Ubicanos</h6>
+          <h6 className="font-high text-gray-400">{t("footer.spot")}</h6>
           <ul>
             <li className="py-2 text-sm">
               <span>Medellín</span>
