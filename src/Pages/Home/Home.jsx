@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../../Components/Hero/Hero";
-import NewsLetter from "../../Components/NewsLetter/NewsLetter";
+import Promotions from "../../Components/Promotions/Promotions";
 import "../Home/Home.css";
 import Service from "../../Components/Service/Service";
 import Indicator from "../../Components/Indicators/Indicator";
@@ -54,6 +54,8 @@ const Home = () => {
     <div>
       <Hero />
       <Indicator />
+      <Promotions />
+      
       <button className="w-[70px] h-[70px] border-radius: [50px] what">
         <a
           className="hide-type"
