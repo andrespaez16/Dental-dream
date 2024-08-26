@@ -6,50 +6,6 @@ import Service from "../../Components/Service/Service";
 import Indicator from "../../Components/Indicators/Indicator";
 
 const Home = () => {
-  const data = [
-    {
-      direction: false,
-      classPhoto: "service-photo",
-      title: "specialities.title_general",
-      text: "specialities.text_general",
-    },
-    {
-      direction: true,
-      classPhoto: "service-photo-diseño",
-      title: "specialities.design_title",
-      text: "specialities.degisgn_text",
-    },
-    {
-      direction: false,
-      classPhoto: "service-photo-ortodoncia",
-      title: "specialities.title_ortodoncia",
-      text: "specialities.text_ortdoncia",
-    },
-    {
-      direction: true,
-      classPhoto: "service-photo-child",
-      title: "specialities.title_odonpentria",
-      text: "specialities.text_odonpentria",
-    },
-    {
-      direction: false,
-      classPhoto: "service-photo-implants",
-      title: "specialities.title_implantes",
-      text: "specialities.text_implantes",
-    },
-    {
-      direction: true,
-      classPhoto: "service-photo-oral",
-      title: "specialities.title_oral",
-      text: "specialities.text_oral",
-    },
-    {
-      direction: false,
-      classPhoto: "service-photo-periodoncia",
-      title: "specialities.title_periodoncia",
-      text: "specialities.text_periodoncia",
-    },
-  ];
   return (
     <div>
       <Hero />

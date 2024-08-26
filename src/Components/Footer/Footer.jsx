@@ -4,8 +4,10 @@ import logo from "../Assets/LogoEmpresa.png";
 import instagram_icon from "../Assets/instagram_icon.png";
 import pintester_icon from "../Assets/pintester_icon.png";
 import whatsapp_icon from "../Assets/whatsapp_icon.png";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     // <div className='footer'>
     //   <div className="footer-logo">
@@ -60,10 +62,10 @@ const Footer = () => {
               <span>La Candelaria</span>
             </li>
             <li className="py-2 text-sm">
-              <span>Edificio fundadores</span>
+              <span>{t("footer.building")}</span>
             </li>
             <li className="py-2 text-sm">
-              <span>Piso 11 Consultorio 1107</span>
+              <span>{t("footer.floor")}</span>
             </li>
 
             <li className="py-2 text-sm">
@@ -72,20 +74,18 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Horarios</h6>
+          <h6 className="font-medium text-gray-400">{t("footer.hours")}</h6>
           <ul>
-            <li className="py-2 text-sm">LUN-VIE 8:00 a.m. – 6:00 p.m.</li>
-            <li className="py-2 text-sm">SABADO 8:00 a.m. – 1:00 p.m.</li>
+            <li className="py-2 text-sm"> {t("footer.days")}</li>
+            <li className="py-2 text-sm"> {t("footer.holidays")}</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Hablemos</h6>
+          <h6 className="font-medium text-gray-400"> {t("footer.talk")}</h6>
           <ul>
-            <li className="py-2 text-sm">Telefono: 604 489 99 18</li>
+            <li className="py-2 text-sm"> {t("footer.telefono")}</li>
             <li className="py-2 text-sm">WhatsApp: 312 279 48 31</li>
-            <li className="py-2 text-sm">
-              Email: dentaldreamsr@gmail.com
-            </li>
+            <li className="py-2 text-sm">{t("footer.email")}</li>
           </ul>
         </div>
       </div>
