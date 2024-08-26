@@ -46,7 +46,7 @@ const Navbar = () => {
             setMenu("DentalSpecialties");
           }}
         >
-          <Link to="/DentalSpecialties">Especialidades</Link>
+          <Link to="/DentalSpecialties">{t("nav.specialities")}</Link>
           {menu === "DentalSpecialties" ? <hr /> : <></>}
         </li>
         <li
@@ -54,7 +54,7 @@ const Navbar = () => {
             setMenu("Us");
           }}
         >
-          <Link to="Us">Nosotros</Link>
+          <Link to="Us">{t("nav.us")}</Link>
           {menu === "Us" ? <hr /> : <></>}
         </li>
         <li
@@ -62,7 +62,7 @@ const Navbar = () => {
             setMenu("Contactanos");
           }}
         >
-          <Link to="/kids">Contactanos</Link>
+          <Link to="/kids">{t("nav.contact")}</Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
         <li className="p-4">

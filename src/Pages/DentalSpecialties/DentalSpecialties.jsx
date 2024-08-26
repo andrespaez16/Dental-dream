@@ -7,7 +7,7 @@ const DentalSpecialties = () => {
     {
       direction: false,
       classPhoto: "service-photo",
-      title: "Odontología general",
+      title: "specialities.title_general",
       text: "La odontología General Operatoria o restauradora es la que nos permite dar solución a los problemas básicos de la boca en todo su conjunto. Es muy importante ya que se convierte en el primer contacto entre el paciente y el Odontólogo.Además es allí donde el odontólogo general hace una evaluación del tratamiento que se requiere para cada persona y si es el caso, hace remisión a cualquiera de los especialistas.",
     },
     {

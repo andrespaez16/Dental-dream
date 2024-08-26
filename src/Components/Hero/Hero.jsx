@@ -1,8 +1,10 @@
 import React from "react";
 import "./Hero.css";
 import { Animate } from "react-simple-animate";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+    const [t, i18n] = useTranslation("global");
   return (
     <div className="hero">
       <div className="hero-left"></div>
@@ -15,12 +17,12 @@ const Hero = () => {
         >
           <div>
             <div className="hero-hand-icon">
-              <p>Transformamos vidas creando sonrisas</p>
+              <p>{t("home.title_one")}</p>
             </div>
-            <p>Especialista en sonrisas naturales</p>
-            <p>en medellin.</p>
+            <p>{t("home.title_two")}</p>
+            <p>{t("home.title_three")}.</p>
             <button type="submit" className="hero-latest-btn">
-              Agenda tu cita !!!
+            {t("home.button_text")}
             </button>
           </div>
         </Animate>

@@ -9,13 +9,16 @@
     "flowbite": "^2.5.1",
     "flowbite-react": "^0.10.1",
     "i18next": "^23.12.7",
-    "react": "^18.2.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
     "react-countup": "^6.3.1",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.1",
     "react-i18next": "^15.0.1",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "react-simple-animate": "^3.5.2",
+    "swiper": "^11.1.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

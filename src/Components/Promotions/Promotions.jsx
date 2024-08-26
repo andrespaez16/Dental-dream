@@ -7,8 +7,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 
 const Promotions = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="promotions">
       <div className="promotions-left">
@@ -21,20 +23,11 @@ const Promotions = () => {
           <div>
             <div className="promotions-hand-icon">
               <p>
-                Si necesitas mejorar la posición de tus dientes y quieres
-                embellecer tu sonrisa o bien, estás requiriendo un tratamiento
-                de implantes dentales. ¡Llegaste al lugar indicado, tu clínica
-                odontológica Dental Dream! Contamos con una trayectoria de más
-                de 13 años que nos posiciona como una de los mejores
-                consultorios de Medellín en odontología, para ofrecerte una
-                experiencia placentera y de alta calidad en los servicios de
-                salud oral y cuidado de tu sonrisa.
+              {t("home.text_banner")}
               </p>
             </div>
-            <p>Especialista en sonrisas naturales</p>
-            <p>en medellin.</p>
             <button type="submit" className="promotions-latest-btn">
-              Conocenos
+            {t("home.button_banner")}
             </button>
           </div>
         </Animate>
