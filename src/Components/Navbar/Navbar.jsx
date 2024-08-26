@@ -39,23 +39,23 @@ const Navbar = () => {
           }}
         >
           <Link to="/">{t("nav.home")}</Link>
-          {menu === "shop" ? <hr /> : <></>}
+          {menu === "/" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu("mens");
+            setMenu("DentalSpecialties");
           }}
         >
-          <Link to="/mens">Especialidades</Link>
-          {menu === "mens" ? <hr /> : <></>}
+          <Link to="/DentalSpecialties">Especialidades</Link>
+          {menu === "DentalSpecialties" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu("womens");
+            setMenu("Us");
           }}
         >
-          <Link to="womens">Nosotros</Link>
-          {menu === "womens" ? <hr /> : <></>}
+          <Link to="Us">Nosotros</Link>
+          {menu === "Us" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {

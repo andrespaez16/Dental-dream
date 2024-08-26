@@ -1,11 +1,8 @@
 import React from "react";
-import Hero from "../Components/Hero/Hero";
-import NewsLetter from "../Components/NewsLetter/NewsLetter";
-import "../Pages/Home.css";
-import Service from "../Components/Service/Service";
-import Indicator from "../Components/Indicators/Indicator";
-
-const Home = () => {
+import "../../Pages/DentalSpecialties/DentalSpecialties.css";
+import Service from "../../Components/Service/Service";
+// import "../Assets/reabiltacion.jpg";
+const DentalSpecialties = () => {
   const data = [
     {
       direction: false,
@@ -50,29 +47,17 @@ const Home = () => {
       text: "La periodoncia en Medellín es una especialización de la odontología y cuya función es la prevención, diagnóstico y tratamiento de enfermedades que afectan el periodonto, es decir, todos aquellos elemento que se encuentran alrededor de los dientes, tales como las encías, el ligamento periodontal, el cemento radicular y por último el hueso alveolar quien es el encargado de soportar todos los dietes.",
     },
   ];
+
   return (
-    <div>
-      <Hero />
-      <Indicator />
+    <div className="especialidades-container">
       <div className="especialidades">
         <h2 className="especialidades-text">Especialidades</h2>
       </div>
       {data.map((card) => {
         return <Service info={card}></Service>;
       })}
-
-      <NewsLetter />
-      <button className="w-[70px] h-[70px] border-radius: [50px] what">
-        <a
-          className="hide-type"
-          target="_blank"
-          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer los productos de la tienda !!!"
-        >
-          whatsapp
-        </a>
-      </button>
     </div>
   );
 };
 
-export default Home;
+export default DentalSpecialties;

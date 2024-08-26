@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="hero">
       <div className="hero-left">
       </div>
-      <div className="hero-left">
+      <div className="hero-left fade-in">
         <div>
           <div className="hero-hand-icon">
             <p>Transformamos vidas creando sonrisas</p>

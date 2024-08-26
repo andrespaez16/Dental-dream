@@ -7,9 +7,6 @@ const Indicator = (props) => {
   return (
     <div
     className="mx-auto grid md:grid-cols-3 mt-[30px]"
-    data-aos="zoom-in"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="1000"
   >
     <div className="flex-col text-center w-full">
       <h1 className="md:text-3xl sm:text-2xl text-center text-2xl font-bold  mb-6 sombra">
