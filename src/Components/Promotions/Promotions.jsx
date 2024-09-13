@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Promotions = () => {
   const [t, i18n] = useTranslation("global");
@@ -27,7 +28,8 @@ const Promotions = () => {
               </p>
             </div>
             <button type="submit" className="promotions-latest-btn">
-            {t("home.button_banner")}
+
+            <Link to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!" target="_blank" >{t("home.button_banner")}</Link>
             </button>
           </div>
         </Animate>
