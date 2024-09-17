@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    height: 70vh;
+    height: 58vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +13,9 @@
     margin-bottom: 50px;
 }
 .form-image{
-    height: 70vh;
-    width: 45%;
-    line-height: 1.1;
-        background-image:url('../Assets/form.jpg'); 
+    height: 55vh;
+    width: 47%;
+    background-image:url('../Assets/form.jpg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -24,10 +23,16 @@
     margin: 40px;
    
 }
+
+
+.button-submit-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .promotions-right{
-    height: 70vh;
-    width: 50%;
- 
+    height: 50vh;
+    width: 47%;
 }
 
 .swiper {
@@ -110,24 +115,22 @@
 .promotions-hand-icon img{
     width: 70px;
 }
-.promotions-latest-btn{
+.promotions-latest-btns{
     filter: drop-shadow(4px 6px 12px black);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     /* font-family:cursive; */
-    width: 350px;
-    height: 80px;
-    border-radius:15px;
-    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
     background: #00b241;
     color: white;
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
-    margin-top: 60px;
-    margin-left: 200px;
+    margin-top: 20px
 }
 .hero-latest-btn img{
     width: 18px;

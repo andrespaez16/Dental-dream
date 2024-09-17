@@ -8,7 +8,6 @@ const Hero = () => {
     const [t, i18n] = useTranslation("global");
   return (
     <div className="hero">
-      <div className="hero-left"></div>
       <div className="hero-left">
         <Animate
           play

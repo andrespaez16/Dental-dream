@@ -10,18 +10,18 @@ const Service = (props) => {
     <div className="service flex flex-wrap flex-row">
       {props.info.direction ? (
         <>
-          <div className="service-text fade-in-left">        
+          <div className="service-contain  fade-in-left">        
             <h2>{t(props.info.title)}</h2>
-            <p>{t(props.info.text)}</p>
+            <p className="service-text">{t(props.info.text)}</p>
           </div>
           <div className={t(props.info.classPhoto)}></div>
         </>
       ) : (
         <>
           <div className={props.info.classPhoto}></div>
-          <div className="service-text fade-in-right">
+          <div className="service-contain  fade-in-right">
             <h2>{t(props.info.title)}</h2>
-            <p>{t(props.info.text)}</p>
+            <p className="service-text">{t(props.info.text)}</p>
           </div>
         </>
       )}

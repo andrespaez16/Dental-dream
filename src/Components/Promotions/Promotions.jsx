@@ -14,7 +14,7 @@ const Promotions = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="promotions">
-      <div className="promotions-left">
+      <div className="promotions-lefts">
         <Animate
           play
           duration={2}
@@ -23,19 +23,23 @@ const Promotions = () => {
         >
           <div>
             <div className="promotions-hand-icon">
-              <p>
-              {t("home.text_banner")}
-              </p>
+              <p>{t("home.text_banner")}</p>
             </div>
-            <button type="submit" className="promotions-latest-btn">
-
-            <Link to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!" target="_blank" >{t("home.button_banner")}</Link>
+            <div className="contain-button">
+            <button type="submit" className="promotions-latests-btn">
+              <Link
+                to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
+                target="_blank"
+              >
+                {t("home.button_banner")}
+              </Link>
             </button>
+            </div>
           </div>
         </Animate>
       </div>
 
-      <div className="promotions-right">
+      <div className="promotions-rights">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
