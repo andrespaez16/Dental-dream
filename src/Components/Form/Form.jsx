@@ -16,7 +16,7 @@ const Form = () => {
     <div className="form-container">
       <div className="form-image"></div>
 
-      <div className="promotions-right">
+      <div className="form-right">
         <section class="bg-white dark:bg-gray-900">
           <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <p class=" font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
@@ -71,7 +71,7 @@ const Form = () => {
                 ></textarea>
               </div>
               <div className="button-submit-center">
-                <button type="submit" className="promotions-latest-btns">
+                <button type="submit" className="form-latest-btns">
                   Enviar correo
                 </button>
               </div>

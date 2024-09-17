@@ -16,6 +16,7 @@
 .promotions-rights {
   height: 50vh;
   width: 50%;
+  padding: 40px;
 }
 
 .swiper {
@@ -42,7 +43,7 @@
 }
 
 .photo-one {
-  width: 90%;
+  width: 100%;
   height: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +53,7 @@
 }
 
 .photo-two {
-  width: 90%;
+  width: 100%;
   height: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,7 +63,7 @@
 }
 
 .photo-three {
-  width: 90%;
+  width: 100%;
   height: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,33 +138,29 @@
   }
 }
 @media (max-width: 700px) {
-  .hero {
-    padding: 0 10%;
-  }
-  .hero-left p {
-    padding-top: 10px;
-    font-size: 25px;
-    padding-left: 0 !important;
-  }
-  .hero-right {
-    display: none;
-  }
-  .hero-left {
-    line-height: 1.2;
-  }
-  .hero-left h2 {
-    margin-bottom: 20px;
+
+  .promotions {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
-  .hero-latest-btn {
-    margin-top: 30px;
-  }
+  .promotions-rights{
+    width: 100%;
+    
 
-  section {
-    width: auto !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    form {
+  }
+  .promotions-lefts{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    p{
+      font-size: 18px;
     }
   }
+
+
+ 
 }

@@ -10,7 +10,6 @@ const SisteCredito = () => {
       <h2>Metodos de pago</h2>
       <div className="pay-container">
         <div className="siste-image"></div>
-
         <div className="pse-image"></div>
 
         <div className="nequi-image"></div>
