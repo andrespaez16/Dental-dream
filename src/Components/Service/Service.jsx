@@ -7,23 +7,23 @@ const Service = (props) => {
 
   console.log(props.info, "estaisoos");
   return (
-    <div className="service flex flex-wrap flex-row">
+    <div className="service">
       {props.info.direction ? (
-        <>
+        <div className="left-contain">
           <div className="service-contain  fade-in-left">        
             <h2>{t(props.info.title)}</h2>
             <p className="service-text">{t(props.info.text)}</p>
           </div>
           <div className={t(props.info.classPhoto)}></div>
-        </>
+        </div>
       ) : (
-        <>
+        <div className="right-contain">
           <div className={props.info.classPhoto}></div>
           <div className="service-contain  fade-in-right">
             <h2>{t(props.info.title)}</h2>
             <p className="service-text">{t(props.info.text)}</p>
           </div>
-        </>
+        </div>
       )}
     </div>
   );
