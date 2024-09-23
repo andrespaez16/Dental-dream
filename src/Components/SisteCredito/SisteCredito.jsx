@@ -7,7 +7,7 @@ const SisteCredito = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="content-pay-method">
-      <h2>Metodos de pago</h2>
+      <h2>{t("pagos.method")}</h2>
       <div className="pay-container">
         <div className="siste-image"></div>
         <div className="pse-image"></div>

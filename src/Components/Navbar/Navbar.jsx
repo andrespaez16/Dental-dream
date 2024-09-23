@@ -62,7 +62,7 @@ const Navbar = () => {
             setMenu("Contactanos");
           }}
         >
-          <Link to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!" target="_blank" >{t("nav.contact")}</Link>
+          <Link to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!" target="_blank" >{t("nav.contact")}</Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
         <li className="p-4">

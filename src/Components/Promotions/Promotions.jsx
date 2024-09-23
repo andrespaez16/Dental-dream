@@ -28,7 +28,7 @@ const Promotions = () => {
             <div className="contain-button">
             <button type="submit" className="promotions-latests-btn">
               <Link
-                to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
+                to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!"
                 target="_blank"
               >
                 {t("home.button_banner")}

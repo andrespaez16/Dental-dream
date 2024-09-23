@@ -62,7 +62,7 @@ const DentalSpecialties = () => {
         <a
           className="hide-type"
           target="_blank"
-          href="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!"
+          href="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!"
         >
           whatsapp
         </a>

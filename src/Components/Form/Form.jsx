@@ -20,10 +20,10 @@ const Form = () => {
         <section class="bg-white dark:bg-gray-900">
           <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <p class=" font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-              Clínicas odontológicas Medellín: ¿Quieres una linda sonrisa?
+              {t("form.title.method")}
             </p>
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-              Contactanos estaremos dispuestos ayudarte!!!
+              {t("form.comment")}
             </p>
             <form action="#" class="space-y-4">
               <div>
@@ -31,7 +31,7 @@ const Form = () => {
                   for="email"
                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >
-                  Escribe tu correo
+                  {t("form.mail")}
                 </label>
                 <input
                   type="email"
@@ -46,7 +46,7 @@ const Form = () => {
                   for="subject"
                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                 >
-                  Escribe tu nombre
+                  {t("form.name")}
                 </label>
                 <input
                   type="text"
@@ -61,7 +61,7 @@ const Form = () => {
                   for="message"
                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
                 >
-                  Escribenos tu mensaje
+                  {t("form.message")}
                 </label>
                 <textarea
                   id="message"
@@ -72,7 +72,7 @@ const Form = () => {
               </div>
               <div className="button-submit-center">
                 <button type="submit" className="form-latest-btns">
-                  Enviar correo
+                  {t("form.button")}
                 </button>
               </div>
             </form>

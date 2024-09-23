@@ -1,56 +1,65 @@
 {
-    "home": {
-      "title_one": "Transformamos vidas creando sonrisas",
-      "title_two": "Especialista en sonrisas naturales",
-      "title_three": "en medellin.",
-      "button_text": "Consigue una cotización",
-      "private":"Privacidad",
-      "ages":"Seguridad",
-      "clientes":"Comodidad",
-      "clientes_good":"en sus viajes.",
-      "text_banner":"Si necesitas mejorar la posición de tus dientes y quieres embellecer tu sonrisa o bien, estás requiriendo un tratamiento de implantes dentales. ¡Llegaste al lugar indicado, tu clínica odontológica Dental Dream! Contamos con una trayectoria de más de 13 años que nos posiciona como una de los mejores consultorios de Medellín en odontología, para ofrecerte una experiencia placentera y de alta calidad en los servicios de salud oral y cuidado de tu sonrisa. Especialista en sonrisas naturales en medellin.",
-      "button_banner":"Conocenos"
-    },
-    "nav": {
-      "home": "Inicio",
-      "specialities": "Especialidades",
-      "us": "Nosotros",
-      "contact": "Contactanos"
-    },
-    "specialities": {
-      "title":"Especialidades",
-      "title_general": "Odontología general",
-      "text_general": "La odontología General Operatoria o restauradora es la que nos permite dar solución a los problemas básicos de la cavidad oral en todo su conjunto. Es muy importante ya que se convierte en el primer contacto entre el paciente y el Odontólogo.Además es allí donde el odontólogo general hace una evaluación del tratamiento que se requiere para cada persona y si es el caso, hace remisión a cualquiera de los especialistas.",
-      "design_title": "Diseño de sonrisa",
-      "degisgn_text": "DentalDream tiene uno de los equipos de odontólogos especialistas más completos en diseño de sonrisa en Medellín. Venga, llámenos al (604) 489 99 18 y compruébelo ahora mismo. Estaremos atentos para definir su tratamiento ideal dependiendo de su situación clínica y presupuesto. Tenemos un laboratorio digital propio y esto garantiza optimización de costos, resultados y tiempos",
-      "title_ortodoncia": "Ortodoncia",
-      "text_ortdoncia": "La ortodoncia se encarga de corregir las anomalías de forma, posición y oclusión de las estructuras dentomaxilofaciales, manteniendo una armonía y un óptimo estado de la salud oral. En algunos casos, los dientes se ven a simple vista alineados, pero no hay una oclusión correcta entre los maxilares superior e inferior y es aquí donde también se debe actuar con prontitud para corregir problemas futuros, como el desgaste dental, la pérdida ósea o de piezas dentales a temprana edad.",
-      "title_odonpentria": "Odontopediatría",
-      "text_odonpentria": "La odontopediatría en Medellín o también conocida como odontología infantil, es una especialización de la odontalgia encarda de la salud de los niños. Se ocupa no solo de la prevención, el diagnóstico y el tratamiento de afeccione dentales en lo menores de edad, sino también de un tema fundamental y es una labor educativa al engeñarle a todos sus pacientes y sus acompañantes el cómo se deben cuidar y mantener sanos y limpios sus dientes.",
-      "title_implantes": "Implantes",
-      "text_implantes": "Los implantes dentales en Medellín actualmente son la opción más utilizada para reemplazar una pieza dental, ya que se entrega a los pacientes una solución definitiva. Muchas veces antes de realizar una cirugía de este tipo, se requiere proceder con un injerto óseo para que el tornillo implantado tenga una excelente fijación.",
-      "title_oral": "Rehabilitación Oral",
-      "text_oral": "La Rehabilitación Oral es una especialidad de la Odontología encargada de la restauración de las piezas dentales para devolverle su función estética y armónica oral mediante Prótesis Dentales, siempre buscando una oclusión y función correcta.",
-      "title_periodoncia": "Periodoncia",
-      "text_periodoncia": "La periodoncia en Medellín es una especialización de la odontología y cuya función es la prevención, diagnóstico y tratamiento de enfermedades que afectan el periodonto, es decir, todos aquellos elemento que se encuentran alrededor de los dientes, tales como las encías, el ligamento periodontal, el cemento radicular y por último el hueso alveolar quien es el encargado de soportar todos los dietes."
-    },
-    "contact": {
-      "title_mision": "Misión:",
-      "text_mision": "Ser un consultorio odontológico en constante evolución, conformado por los mejores especialistas en odontología, en constante formación, logrando mejores resultados en cada tratamiento y así ofrecer una atención personalizada a cada paciente. Nuestros valores son: excelencia en el servicio, honestidad, eficacia y respeto.",
-      "text_vision": "Visión:",
-      "title_vision": "Queremos ser reconocidos por nuestro profesionalismo y buen trato, llegando así a ser líderes en la atención integral de nuestros pacientes, la cual nos lleve a una proyección de crecimiento a nivel nacional y así podamos ayudar a más personas a tener la sonrisa que siempre han soñado."
-    },
-    "footer":{
-      "building":"Edificio fundadores",
-      "floor":"Piso 11 Consultorio 1107",
-      "days":"LUN-VIE 8:00 a.m. – 6:00 p.m.",
-      "holidays":"SABADO 8:00 a.m. – 1:00 p.m.",
-      "telefono":"Telefono: 604 489 99 18",
-      "email":"Email: dentaldreamsr@gmail.com",
-      "talk":"Hablemos",
-      "hours":"Horarios",
-      "spot":"Ubicanos"
-     
-    }
+  "home": {
+    "title_one": "Transformamos vidas creando sonrisas",
+    "title_two": "Especialista en sonrisas naturales",
+    "title_three": "en medellin.",
+    "button_text": "Consigue una cotización",
+    "private": "Privacidad",
+    "ages": "Seguridad",
+    "clientes": "Comodidad",
+    "clientes_good": "en sus viajes.",
+    "text_banner": "Si necesitas mejorar la posición de tus dientes y quieres embellecer tu sonrisa o bien, estás requiriendo un tratamiento de implantes dentales. ¡Llegaste al lugar indicado, tu clínica odontológica Dental Dream! Contamos con una trayectoria de más de 13 años que nos posiciona como una de los mejores consultorios de Medellín en odontología, para ofrecerte una experiencia placentera y de alta calidad en los servicios de salud oral y cuidado de tu sonrisa. Especialista en sonrisas naturales en medellin.",
+    "button_banner": "Conocenos"
+  },
+  "nav": {
+    "home": "Inicio",
+    "specialities": "Especialidades",
+    "us": "Nosotros",
+    "contact": "Contactanos"
+  },
+  "specialities": {
+    "title": "Especialidades",
+    "title_general": "Odontología general",
+    "text_general": "La odontología General Operatoria o restauradora es la que nos permite dar solución a los problemas básicos de la cavidad oral en todo su conjunto. Es muy importante ya que se convierte en el primer contacto entre el paciente y el Odontólogo.Además es allí donde el odontólogo general hace una evaluación del tratamiento que se requiere para cada persona y si es el caso, hace remisión a cualquiera de los especialistas.",
+    "design_title": "Diseño de sonrisa",
+    "degisgn_text": "DentalDream tiene uno de los equipos de odontólogos especialistas más completos en diseño de sonrisa en Medellín. Venga, llámenos al (604) 489 99 18 y compruébelo ahora mismo. Estaremos atentos para definir su tratamiento ideal dependiendo de su situación clínica y presupuesto. Tenemos un laboratorio digital propio y esto garantiza optimización de costos, resultados y tiempos",
+    "title_ortodoncia": "Ortodoncia",
+    "text_ortdoncia": "La ortodoncia se encarga de corregir las anomalías de forma, posición y oclusión de las estructuras dentomaxilofaciales, manteniendo una armonía y un óptimo estado de la salud oral. En algunos casos, los dientes se ven a simple vista alineados, pero no hay una oclusión correcta entre los maxilares superior e inferior y es aquí donde también se debe actuar con prontitud para corregir problemas futuros, como el desgaste dental, la pérdida ósea o de piezas dentales a temprana edad.",
+    "title_odonpentria": "Odontopediatría",
+    "text_odonpentria": "La odontopediatría en Medellín o también conocida como odontología infantil, es una especialización de la odontalgia encarda de la salud de los niños. Se ocupa no solo de la prevención, el diagnóstico y el tratamiento de afeccione dentales en lo menores de edad, sino también de un tema fundamental y es una labor educativa al engeñarle a todos sus pacientes y sus acompañantes el cómo se deben cuidar y mantener sanos y limpios sus dientes.",
+    "title_implantes": "Implantes",
+    "text_implantes": "Los implantes dentales en Medellín actualmente son la opción más utilizada para reemplazar una pieza dental, ya que se entrega a los pacientes una solución definitiva. Muchas veces antes de realizar una cirugía de este tipo, se requiere proceder con un injerto óseo para que el tornillo implantado tenga una excelente fijación.",
+    "title_oral": "Rehabilitación Oral",
+    "text_oral": "La Rehabilitación Oral es una especialidad de la Odontología encargada de la restauración de las piezas dentales para devolverle su función estética y armónica oral mediante Prótesis Dentales, siempre buscando una oclusión y función correcta.",
+    "title_periodoncia": "Periodoncia",
+    "text_periodoncia": "La periodoncia en Medellín es una especialización de la odontología y cuya función es la prevención, diagnóstico y tratamiento de enfermedades que afectan el periodonto, es decir, todos aquellos elemento que se encuentran alrededor de los dientes, tales como las encías, el ligamento periodontal, el cemento radicular y por último el hueso alveolar quien es el encargado de soportar todos los dietes."
+  },
+  "contact": {
+    "title_mision": "Misión:",
+    "text_mision": "Ser un consultorio odontológico en constante evolución, conformado por los mejores especialistas en odontología, en constante formación, logrando mejores resultados en cada tratamiento y así ofrecer una atención personalizada a cada paciente. Nuestros valores son: excelencia en el servicio, honestidad, eficacia y respeto.",
+    "text_vision": "Visión:",
+    "title_vision": "Queremos ser reconocidos por nuestro profesionalismo y buen trato, llegando así a ser líderes en la atención integral de nuestros pacientes, la cual nos lleve a una proyección de crecimiento a nivel nacional y así podamos ayudar a más personas a tener la sonrisa que siempre han soñado."
+  },
+  "footer": {
+    "building": "Edificio fundadores",
+    "floor": "Piso 11 Consultorio 1107",
+    "days": "LUN-VIE 8:00 a.m. – 6:00 p.m.",
+    "holidays": "SABADO 8:00 a.m. – 1:00 p.m.",
+    "telefono": "Telefono: 604 489 99 18",
+    "email": "Email: dentaldreamsr@gmail.com",
+    "talk": "Hablemos",
+    "hours": "Horarios",
+    "spot": "Ubicanos"
+  },
+  "pagos": {
+    "method": "Metodos de pago"
+  },
+  "form": {
+    "title": "Clínicas odontológicas Medellín: ¿Quieres una linda sonrisa?",
+    "comment": "Contactanos estaremos dispuestos ayudarte!!!",
+    "mail": "Escribe tu correo",
+    "name": "Escribe tu nombre",
+    "message": "Escribenos tu mensaje",
+    "button":"Enviar correo"
   }
-  
+}

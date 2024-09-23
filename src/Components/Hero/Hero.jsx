@@ -22,7 +22,7 @@ const Hero = () => {
             <p>{t("home.title_two")}</p>
             <p>{t("home.title_three")}.</p>
             <button type="submit" className="hero-latest-btn">
-            <Link to="https://api.whatsapp.com/send?phone=3006406246&text=Hola deseo conocer sobre los servicios!!!" target="_blank" > {t("home.button_text")}</Link>
+            <Link to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!" target="_blank" > {t("home.button_text")}</Link>
             </button>
           </div>
         </Animate>

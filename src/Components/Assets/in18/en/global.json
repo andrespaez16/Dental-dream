@@ -52,5 +52,18 @@
     "talk": "Let's talk",
     "hours": "Hours",
     "spot":"Locate us at"
+  },
+  "pagos":{
+      "method":"Payment methods"
+
+
+  },
+  "form": {
+    "title": "Medellín dental clinics: Do you want a beautiful smile?",
+    "comment": "Contact us we will be willing to help you!!!",
+    "mail": "Write your email",
+    "name": "Write your name",
+    "message": "Write us your message",
+    "button":"Send mail"
   }
 }
