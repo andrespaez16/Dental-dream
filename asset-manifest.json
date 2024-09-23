@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Dental-dream/static/css/main.8b693811.css",
+    "main.js": "/Dental-dream/static/js/main.db6de56c.js",
+    "static/js/453.8ab44547.chunk.js": "/Dental-dream/static/js/453.8ab44547.chunk.js",
+    "static/media/periodoncia.jpg": "/Dental-dream/static/media/periodoncia.7fe16c7e82dc9ab1a68a.jpg",
+    "static/media/reabiltacion.jpg": "/Dental-dream/static/media/reabiltacion.eb818555a439d13bcf6b.jpg",
+    "static/media/diseño.jpg": "/Dental-dream/static/media/diseño.040f7a4e4093e5e1dd18.jpg",
+    "static/media/three.jpg": "/Dental-dream/static/media/three.60ee474c4e2243a45090.jpg",
+    "static/media/ortodoncia.jpg": "/Dental-dream/static/media/ortodoncia.db52ebfe9348019ea221.jpg",
+    "static/media/implantes.jpg": "/Dental-dream/static/media/implantes.6d26e100125db9eb5858.jpg",
+    "static/media/form.jpg": "/Dental-dream/static/media/form.5452d745a247509cc00f.jpg",
+    "static/media/niños.jpg": "/Dental-dream/static/media/niños.605fd1eef6adfcaab93a.jpg",
+    "static/media/oral.jpg": "/Dental-dream/static/media/oral.ffd4cb30fcc0bd829d10.jpg",
+    "static/media/homev2.jpg": "/Dental-dream/static/media/homev2.d6d809b4707a874fe93e.jpg",
+    "static/media/two.jpg": "/Dental-dream/static/media/two.56827e40d9a7bcb91e3e.jpg",
+    "static/media/formImage.jpg": "/Dental-dream/static/media/formImage.dff07229afd1ef1bd588.jpg",
+    "static/media/muela.jpg": "/Dental-dream/static/media/muela.a0220f7ed2ae59ebce4d.jpg",
+    "static/media/LogoEmpresa.png": "/Dental-dream/static/media/LogoEmpresa.dbad9d052b34f3708c7d.png",
+    "static/media/visioymision.avif": "/Dental-dream/static/media/visioymision.b5b8b7b52d447d56d865.avif",
+    "static/media/whatsapp_logo_icon_229310.png": "/Dental-dream/static/media/whatsapp_logo_icon_229310.ade89aaf1201d61e3f09.png",
+    "static/media/usa3.png": "/Dental-dream/static/media/usa3.51121d15048a2c2e5732.png",
+    "static/media/col2.png": "/Dental-dream/static/media/col2.dfd63e99f3c1e1734183.png",
+    "static/media/logosiste.avif": "/Dental-dream/static/media/logosiste.afb5d1218ad03e5821a6.avif",
+    "static/media/pse.webp": "/Dental-dream/static/media/pse.9bc2b6d711022b93d2c0.webp",
+    "index.html": "/Dental-dream/index.html",
+    "main.8b693811.css.map": "/Dental-dream/static/css/main.8b693811.css.map",
+    "main.db6de56c.js.map": "/Dental-dream/static/js/main.db6de56c.js.map",
+    "453.8ab44547.chunk.js.map": "/Dental-dream/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b693811.css",
+    "static/js/main.db6de56c.js"
+  ]
+}
