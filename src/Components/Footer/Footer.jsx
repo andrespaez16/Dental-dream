@@ -69,7 +69,7 @@ const Footer = () => {
             </li>
 
             <li className="py-2 text-sm">
-              <span>Cl.54 #46-115</span>
+              <span>Cra. 43A #7-50 </span>
             </li>
           </ul>
         </div>
