@@ -4,10 +4,10 @@ import "../Assets/reabiltacion.jpg";
 import { useTranslation } from "react-i18next";
 const Service = (props) => {
   const [t, i18n] = useTranslation("global");
-  const [deviceMovil, setDeviceMovil] = useState();
+  const [deviceMovil, setDeviceMovil] = useState(true);
 
   const deviceSize = () => {
-    if (window.screen.height < 844) {
+    if ((window.screen.height) <= 844) {
       setDeviceMovil(true);
     } else {
       setDeviceMovil(false);
