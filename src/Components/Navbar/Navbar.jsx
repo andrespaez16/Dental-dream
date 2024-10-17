@@ -11,6 +11,7 @@ const Navbar = () => {
   const [t, i18n] = useTranslation("global");
 
   const dropdown_toggle = (e) => {
+    console.log(e.target.classList.toggle("close"), 'esto que es')
     menuRef.current.classList.toggle("nav-menu-visible");
     e.target.classList.toggle("open");
   };
@@ -36,6 +37,7 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu("shop");
+            menuRef.current.classList.toggle("nav-menu-visible");
           }}
         >
           <Link to="/">{t("nav.home")}</Link>
@@ -44,6 +46,7 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu("DentalSpecialties");
+            menuRef.current.classList.toggle("nav-menu-visible");
           }}
         >
           <Link to="/DentalSpecialties">{t("nav.specialities")}</Link>
@@ -52,6 +55,7 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu("Us");
+            menuRef.current.classList.toggle("nav-menu-visible");
           }}
         >
           <Link to="Us">{t("nav.us")}</Link>
@@ -60,6 +64,7 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu("Contactanos");
+            menuRef.current.classList.toggle("nav-menu-visible");
           }}
         >
           <Link to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!" target="_blank" >{t("nav.contact")}</Link>
