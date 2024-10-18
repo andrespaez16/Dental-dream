@@ -9,12 +9,12 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <Animate
+        {/* <Animate
           play
           duration={2}
           end={{ opacity: 1, filter: "blur(0)" }}
           start={{ opacity: 0, filter: "blur(10px)" }}
-        >
+        > */}
           <div>
             <div className="hero-hand-icon">
               <p>{t("home.title_one")}</p>
@@ -25,7 +25,7 @@ const Hero = () => {
             <Link to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!" target="_blank" > {t("home.button_text")}</Link>
             </button>
           </div>
-        </Animate>
+        {/* </Animate> */}
       </div>
     </div>
   );
