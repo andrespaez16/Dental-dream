@@ -32,7 +32,7 @@ const Indicator = (props) => {
     </div>
     <div className="flex-col text-center w-full">
       <h1 className="md:text-3xl sm:text-2xl text-center text-2xl font-bold  mb-6 sombra">
-        Clientes Satifechos
+        Pacientes felices
       </h1>
       <div className="diente rounded-full inline-block">
         <span className="text-center text-2xl font-bold  mt-[20px] relative top-[35%]">

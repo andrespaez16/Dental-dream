@@ -62,6 +62,9 @@ const Promotions = () => {
           <SwiperSlide>
             <div className="photo-three"></div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="photo-four"></div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>

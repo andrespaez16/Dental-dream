@@ -3,18 +3,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 76vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 .promotions-lefts {
-  height: 50vh;
+  height: 75vh;
   width: 50%;
 }
 .promotions-rights {
-  height: 50vh;
+  height: 75vh;
   width: 50%;
   padding: 40px;
 }
@@ -44,38 +44,58 @@
 
 .photo-one {
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/formImage.jpg");
+  background-image: url("../Assets/dental1.jpg");
   border-radius: 30px;
 }
 
 .photo-two {
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/two.jpg");
+  background-image: url("../Assets/dental2.jpg");
   border-radius: 30px;
 }
 
 .photo-three {
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/three.jpg");
+  background-image: url("../Assets/dental4.jpg");
+  border-radius: 30px;
+}
+
+.photo-four {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/dental5.jpg");
+  border-radius: 30px;
+}
+
+.photo-five {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/dental4.jpg");
   border-radius: 30px;
 }
 
 .promotions-lefts p {
   width: 100%;
   color: #221e1e;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   /* filter: drop-shadow(5px 1px 2px rgb(102, 100, 100)); */
   font-family: "Montserrat", sans-serif;
