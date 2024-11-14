@@ -1,7 +1,7 @@
 .hero {
-  background-image: url("../Assets/homev2.jpg");
+  background-image: url("../Assets/homedentaloffice.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   height: 70vh;
   width: 100%;

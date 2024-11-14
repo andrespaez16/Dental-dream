@@ -53,12 +53,12 @@ const Promotions = () => {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div className="photo-one"></div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="photo-two"></div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide>
             <div className="photo-three"></div>
           </SwiperSlide>

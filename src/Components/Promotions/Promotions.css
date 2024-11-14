@@ -42,7 +42,7 @@
   object-fit: cover;
 }
 
-.photo-one {
+/* .photo-one {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
   background-size: cover;
   background-image: url("../Assets/dental2.jpg");
   border-radius: 30px;
-}
+} */
 
 .photo-three {
   width: 100%;
