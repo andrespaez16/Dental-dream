@@ -11,3 +11,18 @@
 .sombra{
     filter: drop-shadow(0 1px 23px rgb(122, 121, 121));
 }
+
+@media (max-width: 700px) {
+    .diente{
+        width: 130px;
+        height: 130px;
+        background-image: url('../Assets/muela.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    
+  
+  }
+  

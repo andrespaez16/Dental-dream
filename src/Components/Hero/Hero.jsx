@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 const Hero = () => {
     const [t, i18n] = useTranslation("global");
   return (
-    <div className="hero">
-      <div className="hero-left">
+    <div className="hero-principal">
+      <div className="hero-left-principal">
         {/* <Animate
           play
           duration={2}
@@ -21,9 +21,9 @@ const Hero = () => {
             </div>
             <p>{t("home.title_two")}</p>
             <p>{t("home.title_three")}.</p>
-            <button type="submit" className="hero-latest-btn">
+            {/* <button type="submit" className="hero-latest-btn">
             <Link to="https://api.whatsapp.com/send?phone=3122794831&text=Deseo agendar una cita de valoracion!!" target="_blank" > {t("home.button_text")}</Link>
-            </button>
+            </button> */}
           </div>
         {/* </Animate> */}
       </div>
