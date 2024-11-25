@@ -60,10 +60,10 @@ const Promotions = () => {
             <div className="photo-two"></div>
           </SwiperSlide> */}
           <SwiperSlide>
-            <div className="photo-three"></div>
+            <div className="photo-three-pro"></div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="photo-four"></div>
+            <div className="photo-four-pro"></div>
           </SwiperSlide>
         </Swiper>
       </div>

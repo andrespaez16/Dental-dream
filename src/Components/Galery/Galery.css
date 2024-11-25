@@ -1,22 +1,28 @@
-.promotions {
+.galery-section {
   /* background-image:url('../Assets/homev2.jpg'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 76vh;
+  height: 46vh;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.promotions-lefts {
-  height: 75vh;
-  width: 50%;
-}
-.promotions-rights {
-  height: 75vh;
-  width: 50%;
-  padding: 40px;
+
+.title-galery{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 }
 
 .swiper {
@@ -42,13 +48,13 @@
   object-fit: cover;
 }
 
-/* .photo-one {
+.photo-one {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/dental1.jpg");
+  background-image: url("../Assets/pro1.jpg");
   border-radius: 30px;
 }
 
@@ -58,27 +64,27 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/dental2.jpg");
-  border-radius: 30px;
-} */
-
-.photo-three-pro {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url("../Assets/dental4.jpg");
+  background-image: url("../Assets/pro2.jpg");
   border-radius: 30px;
 }
 
-.photo-four-pro {
+.photo-three {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/dental5.jpg");
+  background-image: url("../Assets/pro3.jpg");
+  border-radius: 30px;
+}
+
+.photo-four {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/pro4.jpg");
   border-radius: 30px;
 }
 
@@ -88,74 +94,59 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("../Assets/dental4.jpg");
+  background-image: url("../Assets/pro5.jpg");
   border-radius: 30px;
 }
 
-.promotions-lefts p {
+.photo-six {
   width: 100%;
-  color: #221e1e;
-  font-size: 32px;
-  font-weight: bold;
-  /* filter: drop-shadow(5px 1px 2px rgb(102, 100, 100)); */
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
-.promotions-hand-icon {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 40px;
-}
-.promotions-hand-icon img {
-  width: 70px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/pro6.jpg");
+  border-radius: 30px;
 }
 
-.contain-button{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.photo-seven {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/pro7.jpg");
+  border-radius: 30px;
 }
-.promotions-latests-btn {
-  filter: drop-shadow(4px 6px 12px black);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  /* font-family:cursive; */
-  width: 250px;
-  height: 60px;
-  border-radius: 15px;
-  background: #00b241;
-  color: white;
-  font-size: 24px;
-  font-weight: 500;
-  cursor: pointer;
+.photo-eight {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/pro8.jpg");
+  border-radius: 30px;
+}
 
+.photo-nine {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Assets/pro9.jpg");
+  border-radius: 30px;
 }
+
 
 .shadow-core {
   filter: drop-shadow(4px 6px 12px black);
 }
 
 @media (max-width: 1200px) {
-  .hero {
-    padding: 10px 6%;
-  }
-  .hero-left p {
-    font-size: 70px;
-  }
-  .hero-right img {
-    width: 400px;
-  }
+
 }
 @media (max-width: 900px) {
-  .hero-left p {
-    font-size: 45px;
-  }
-  .hero-right img {
-    width: 350px;
-  }
+
 }
 @media (max-width: 700px) {
 

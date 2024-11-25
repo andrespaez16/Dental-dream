@@ -5,6 +5,7 @@ import "../Home/Home.css";
 import Indicator from "../../Components/Indicators/Indicator";
 import Form from "../../Components/Form/Form";
 import SisteCredito from "../../Components/SisteCredito/SisteCredito";
+import Galery from "../../Components/Galery/Galery";
 
 const Home = () => {
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Indicator />
       <Promotions />
       <Form></Form>
+      <Galery></Galery>
       <SisteCredito></SisteCredito>
       
       <button className="w-[70px] h-[70px] border-radius: [50px] what">
